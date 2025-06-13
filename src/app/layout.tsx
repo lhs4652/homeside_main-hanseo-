@@ -138,25 +138,11 @@ export default function RootLayout({
             }),
           }}
         />
+        <meta name="google-site-verification" content="id764-i99btuEXyXFUMzRBsaPhKoLHtQvxL" />
+        <meta name="naver-site-verification" content="099a1754c475f2ee41464f9d4bfd397d25d60abb" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
-        {/* 플로팅 카카오톡 문의하기 버튼 */}
-        <a
-          href='https://open.kakao.com/o/sBbnwTSd'
-          target='_blank'
-          rel='noopener noreferrer'
-          className='fixed bottom-16 right-4 sm:right-12 z-50 flex items-center gap-2 px-5 py-3 rounded-full bg-yellow-400 shadow-xl hover:bg-yellow-300 transition-colors group'
-          style={{ boxShadow: "0 4px 24px 0 rgba(0,0,0,0.18)" }}
-          aria-label='카카오톡 문의하기'
-        >
-          <HiOutlineChatBubbleLeftRight className='w-7 h-7 text-brown-700 group-hover:scale-110 transition-transform' />
-          <span className='font-bold text-brown-700 text-base hidden sm:inline'>
-            문의하기
-          </span>
-        </a>
       </body>
     </html>
   );
