@@ -205,7 +205,7 @@ export default function ServiceIntro() {
             <HiOutlineUserGroup className="w-12 h-12 text-white" />
           </div>
           <div className="flex-1 text-center md:text-left md:ml-4">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 whitespace-nowrap text-center md:text-left">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 whitespace-nowrap text-left">
               💡 이런 분들께 꼭 필요합니다
             </h3>
             <ul className="space-y-4 text-gray-700 text-base md:ml-0">
