@@ -65,21 +65,21 @@ export default function HeroSection() {
               alt='주택도시보증공사'
               width={80}
               height={40}
-              className='h-10 w-auto object-contain'
+              className='h-8 md:h-10 w-auto object-contain'
             />
             <Image
               src='/images/한국주택공사.svg'
               alt='한국주택공사'
               width={80}
               height={40}
-              className='h-10 w-auto object-contain'
+              className='h-8 md:h-10 w-auto object-contain'
             />
             <Image
               src='/images/한국주택금융공사.svg'
               alt='한국주택금융공사'
               width={80}
               height={40}
-              className='h-10 w-auto object-contain'
+              className='h-8 md:h-10 w-auto object-contain'
             />
           </div>
           <p className='text-sm text-gray-500 mt-4 text-center w-full'>
@@ -98,6 +98,7 @@ export default function HeroSection() {
               </label>
               <select
                 className='w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent bg-gray-50 transition-all'
+                style={{ color: '#111' }}
                 value={filters.location}
                 onChange={(e) => handleFilterChange("location", e.target.value)}
               >
@@ -129,6 +130,7 @@ export default function HeroSection() {
               </label>
               <select
                 className='w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent bg-gray-50 transition-all'
+                style={{ color: '#111' }}
                 value={filters.dealType || ""}
                 onChange={(e) => handleFilterChange("dealType", e.target.value)}
               >
@@ -148,6 +150,7 @@ export default function HeroSection() {
               </label>
               <select
                 className='w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-400 focus:border-transparent bg-gray-50 transition-all'
+                style={{ color: '#111' }}
                 value={filters.houseType || ""}
                 onChange={(e) =>
                   handleFilterChange("houseType", e.target.value)
