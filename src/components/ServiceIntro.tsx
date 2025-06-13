@@ -116,11 +116,9 @@ export default function ServiceIntro() {
                   주거지 탐색 + 매물 검토까지 한 번에!
                 </div>
                 <div className='text-gray-600 text-base leading-relaxed md:leading-loose'>
-                  직장, 생활환경, 교통, 예산을 고려해 맞춤형 동네를<br className="block md:hidden" />
-                  추천해드려요.
+                  직장, 생활환경, 교통, 예산을 고려해 맞춤형 동네를 추천해드려요.<br className="block md:hidden" />
                   <br />
-                  선택한 매물 3건에 대해 등기부등본·건축물대장·보증보험 여부까지<br className="block md:hidden" />
-                  사전 검토
+                  선택한 매물 3건에 대해 등기부등본·건축물대장·보증보험 여부까지 사전 검토<br className="block md:hidden" /
                 </div>
               </div>
             </div>
@@ -204,7 +202,6 @@ export default function ServiceIntro() {
                   관리
                   <br />
                   입주 전 스타일링, 가전가구 설치, 입주청소, 공과금 처리 등
-                  <br />
                   고객 맞춤형 &#39;입주 플래닝 서비스&#39;로 완벽한 마무리
                 </div>
               </div>
