@@ -403,7 +403,7 @@ export default function ServiceIntro() {
 
         {/* 신뢰 지표 아래 안내 콘텐츠 */}
         <div className='text-center my-12'>
-          <h3 className='text-2xl font-bold mb-2'>
+          <h3 className='text-2xl font-bold mb-2 text-black' style={{color:'#111'}}>
             🎯 지금까지 없던, AI+전문가 동행형 부동산 솔루션
           </h3>
           <p className='text-lg text-gray-700'>

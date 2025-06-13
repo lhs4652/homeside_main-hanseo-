@@ -27,11 +27,6 @@ export default function Footer() {
             <p className='text-gray-300 mb-4'>
               안전하고 투명한 부동산 거래를 위한 전문가 매칭 서비스
             </p>
-            <div className='space-y-2 text-sm text-gray-400'>
-              <p>사업자등록번호: 123-45-67890</p>
-              <p>대표: 이동훈</p>
-              <p>주소: 부산시 부산진구 동천로 116 한신밴 3층</p>
-            </div>
           </div>
           {/* 고객센터 */}
           <div>

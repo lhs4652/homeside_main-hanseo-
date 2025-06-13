@@ -142,6 +142,32 @@ export default function RootLayout({
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
+        {/* 카카오톡 문의하기 플로팅 버튼 */}
+        <a
+          href="https://open.kakao.com/o/g3xAwIuh" // 실제 카카오톡 오픈채팅방 링크로 교체
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            position: 'fixed',
+            right: '24px',
+            bottom: '24px',
+            zIndex: 1000,
+            background: '#FEE500',
+            borderRadius: '50%',
+            width: '60px',
+            height: '60px',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            boxShadow: '0 4px 16px rgba(0,0,0,0.15)',
+          }}
+          aria-label="카카오톡 문의하기"
+        >
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="16" cy="16" rx="16" ry="16" fill="#FEE500"/>
+            <path d="M16 8C10.477 8 6 11.582 6 15.778c0 2.19 1.41 4.14 3.6 5.44-.16.56-.58 2.04-.66 2.36 0 0-.01.09.04.13.05.04.13.02.13.02.17-.02 2.02-1.33 2.36-1.56.85.12 1.73.19 2.59.19 5.523 0 10-3.582 10-7.778S21.523 8 16 8z" fill="#391B1B"/>
+          </svg>
+        </a>
       </body>
     </html>
   );
