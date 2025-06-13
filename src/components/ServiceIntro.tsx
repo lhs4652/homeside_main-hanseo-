@@ -205,7 +205,7 @@ export default function ServiceIntro() {
             <HiOutlineUserGroup className="w-12 h-12 text-white" />
           </div>
           <div className="flex-1 text-center md:text-left md:ml-4">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4 whitespace-nowrap text-left">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center break-keep">
               💡 이런 분들께 꼭 필요합니다
             </h3>
             <ul className="space-y-4 text-gray-700 text-base md:ml-0">
@@ -219,11 +219,11 @@ export default function ServiceIntro() {
               </li>
               <li className="flex items-center justify-center gap-2">
                 <HiOutlineShieldCheck className="w-6 h-6 text-green-400 flex-shrink-0" />
-                <span className="block text-center w-full break-keep">계약서 속 위험 문구를 놓치고<br />후회한 경험이 있으신 분</span>
+                <span className="block text-center w-full break-keep">계약서 속 위험 문구를 놓치고 후회한 경험이 있으신 분</span>
               </li>
               <li className="flex items-center justify-center gap-2">
                 <HiOutlineUser className="w-6 h-6 text-green-400 flex-shrink-0" />
-                <span className="block text-center w-full break-keep">혼자 발품 팔기 어렵고 믿을 만한<br />동행자가 필요한 분</span>
+                <span className="block text-center w-full break-keep">혼자 발품 팔기 어렵고 믿을 만한 동행자가 필요한 분</span>
               </li>
             </ul>
           </div>
