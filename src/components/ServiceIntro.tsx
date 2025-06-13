@@ -27,7 +27,7 @@ export default function ServiceIntro() {
             >
               🏡
             </span>{' '}
-            이사, 아직도 혼자 준비하시나요?
+            <span className="text-xl md:text-4xl">이사, 아직도 혼자 준비하시나요?</span>
           </h2>
           <p className='text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed'>
             <strong>
@@ -111,15 +111,15 @@ export default function ServiceIntro() {
                   1
                 </span>
               </div>
-              <div>
+              <div className="flex flex-col items-start text-left w-full">
                 <div className='font-bold text-lg md:text-xl text-gray-900 mb-2'>
                   주거지 탐색 + 매물 검토까지 한 번에!
                 </div>
                 <div className='text-gray-600 text-base leading-relaxed md:leading-loose'>
-                  직장, 생활환경, 교통, 예산을 고려해 맞춤형 동네를
+                  직장, 생활환경, 교통, 예산을 고려해 맞춤형 동네를<br className="block md:hidden" />
                   추천해드려요.
                   <br />
-                  선택한 매물 3건에 대해 등기부등본·건축물대장·보증보험 여부까지
+                  선택한 매물 3건에 대해 등기부등본·건축물대장·보증보험 여부까지<br className="block md:hidden" />
                   사전 검토
                 </div>
               </div>
@@ -217,32 +217,28 @@ export default function ServiceIntro() {
 
         {/* 고객 대상 */}
         <div className='bg-gradient-to-br from-green-50 to-white rounded-3xl p-10 mb-20 shadow-lg flex flex-col md:flex-row md:items-center md:justify-center md:gap-0 border border-green-100'>
-          <div className='flex flex-row md:flex-col items-center md:items-center justify-center md:justify-center md:mr-4 mb-4 md:mb-0'>
-            <div className='flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-green-400 to-emerald-300 shadow-md mb-0'>
-              <HiOutlineUserGroup className='w-12 h-12 text-white' />
-            </div>
-            <div className='flex flex-col items-center justify-center ml-4 md:ml-0 mt-0 md:mt-4 gap-4'>
-              <HiOutlineMapPin className='w-6 h-6 text-green-400 flex-shrink-0' />
-              <HiOutlineExclamationTriangle className='w-6 h-6 text-green-400 flex-shrink-0' />
-              <HiOutlineShieldCheck className='w-6 h-6 text-green-400 flex-shrink-0' />
-              <HiOutlineUser className='w-6 h-6 text-green-400 flex-shrink-0' />
-            </div>
+          <div className='flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-green-400 to-emerald-300 shadow-md mb-4 md:mb-0 md:mr-6'>
+            <HiOutlineUserGroup className='w-12 h-12 text-white' />
           </div>
           <div className='flex-1 text-center md:text-left'>
             <h3 className='text-2xl font-bold text-gray-900 mb-4 whitespace-nowrap text-center'>
               💡 이런 분들께 꼭 필요합니다
             </h3>
             <ul className='space-y-4 text-gray-700 text-base md:ml-0'>
-              <li className='flex items-start justify-center'>
+              <li className='flex items-center justify-center gap-2'>
+                <HiOutlineMapPin className='w-6 h-6 text-green-400 flex-shrink-0' />
                 <span className='block text-center w-full break-keep'>어디에 살아야 할지 몰라<br />동네 정보부터 막막하신 분</span>
               </li>
-              <li className='flex items-start justify-center'>
+              <li className='flex items-center justify-center gap-2'>
+                <HiOutlineExclamationTriangle className='w-6 h-6 text-green-400 flex-shrink-0' />
                 <span className='block text-center w-full break-keep'>인터넷 매물 정보만 믿고<br />계약하기 두려우신 분</span>
               </li>
-              <li className='flex items-start justify-center'>
+              <li className='flex items-center justify-center gap-2'>
+                <HiOutlineShieldCheck className='w-6 h-6 text-green-400 flex-shrink-0' />
                 <span className='block text-center w-full break-keep'>계약서 속 위험 문구를 놓치고<br />후회한 경험이 있으신 분</span>
               </li>
-              <li className='flex items-start justify-center'>
+              <li className='flex items-center justify-center gap-2'>
+                <HiOutlineUser className='w-6 h-6 text-green-400 flex-shrink-0' />
                 <span className='block text-center w-full break-keep'>혼자 발품 팔기 어렵고 믿을 만한<br />동행자가 필요한 분</span>
               </li>
             </ul>
