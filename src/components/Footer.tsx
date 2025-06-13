@@ -66,6 +66,17 @@ export default function Footer() {
                 <FaThreads className='w-7 h-7' />
               </a>
             </div>
+            <div className="mt-2">
+              <a
+                href="https://www.threads.com/@yourside_home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-gray-400 hover:text-green-300 transition-colors break-all"
+                style={{ display: 'block', color: '#aaa', textAlign: 'left' }}
+              >
+                https://www.threads.com/@yourside_home
+              </a>
+            </div>
           </div>
         </div>
         {/* 하단 링크 및 저작권 */}
