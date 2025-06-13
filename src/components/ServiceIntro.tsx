@@ -118,7 +118,7 @@ export default function ServiceIntro() {
                 <div className='text-gray-600 text-base leading-relaxed md:leading-loose'>
                   직장, 생활환경, 교통, 예산을 고려해 맞춤형 동네를 추천해드려요.<br className="block md:hidden" />
                   <br />
-                  선택한 매물 3건에 대해 등기부등본·건축물대장·보증보험 여부까지 사전 검토<br className="block md:hidden" /
+                  선택한 매물 3건에 대해 등기부등본·건축물대장·보증보험 여부까지 사전 검토<br className="block md:hidden" />
                 </div>
               </div>
             </div>
