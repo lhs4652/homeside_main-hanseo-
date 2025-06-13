@@ -188,8 +188,7 @@ export default function ServiceIntro() {
                 </div>
                 <div className="text-gray-600 text-base leading-relaxed md:leading-loose">
                   웨딩플래너처럼 전담 매니저가 인테리어, 이사, 입주까지 토탈 관리<br />
-                  입주 전 스타일링, 가전가구 설치, 입주청소, 공과금 처리 등<br />
-                  고객 맞춤형 &#39;입주 플래닝 서비스&#39;로 완벽한 마무리
+                  입주 전 스타일링, 가전가구 설치, 입주청소, 공과금 처리 등 고객 맞춤형 &#39;입주 플래닝 서비스&#39;로 완벽한 마무리
                 </div>
               </div>
             </div>
