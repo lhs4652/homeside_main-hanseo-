@@ -216,12 +216,12 @@ export default function ServiceIntro() {
         </div>
 
         {/* 고객 대상 */}
-        <div className='bg-gradient-to-br from-green-50 to-white rounded-3xl p-10 mb-20 shadow-lg flex flex-col md:flex-row md:items-center md:justify-center md:gap-0 border border-green-100'>
+        <div className='bg-gradient-to-br from-green-50 to-white rounded-3xl p-10 mb-20 shadow-lg flex flex-col md:flex-row md:items-center md:justify-start md:gap-0 border border-green-100'>
           <div className='flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-green-400 to-emerald-300 shadow-md mb-4 md:mb-0 md:mr-6'>
             <HiOutlineUserGroup className='w-12 h-12 text-white' />
           </div>
-          <div className='flex-1 text-center md:text-left'>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4 whitespace-nowrap text-center'>
+          <div className='flex-1 text-center md:text-left md:ml-4'>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4 whitespace-nowrap text-center md:text-left'>
               💡 이런 분들께 꼭 필요합니다
             </h3>
             <ul className='space-y-4 text-gray-700 text-base md:ml-0'>
