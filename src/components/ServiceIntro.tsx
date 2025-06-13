@@ -20,13 +20,13 @@ export default function ServiceIntro() {
       <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
         {/* 서비스 소개 헤더 */}
         <div className='text-center mb-16'>
-          <h2 className='text-3xl md:text-4xl font-extrabold text-gray-900 mb-6'>
+          <h2 className='text-2xl md:text-4xl font-extrabold text-gray-900 mb-6 text-center whitespace-nowrap w-full overflow-x-auto'>
             <span
               role='img'
               aria-label='집'
             >
               🏡
-            </span>{" "}
+            </span>{' '}
             이사, 아직도 혼자 준비하시나요?
           </h2>
           <p className='text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed'>
@@ -63,25 +63,23 @@ export default function ServiceIntro() {
           </div>
           {/* 텍스트 및 리스트 */}
           <div className='w-full md:w-2/3'>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4 text-center md:text-left'>
-              복잡한 부동산 거래,
-              <br className='md:hidden' /> 홈 플래너와 함께 체계적으로
-              도와드려요
+            <h3 className='text-2xl font-bold text-gray-900 mb-4 text-center'>
+              복잡한 부동산 거래,<br />홈 플래너와 함께 체계적으로 도와드려요
             </h3>
-            <ul className='space-y-3 text-gray-700 text-base mb-4'>
-              <li className='flex items-center gap-2'>
+            <ul className='space-y-3 text-gray-700 text-base mb-4 flex flex-col items-center text-center'>
+              <li className='flex items-center gap-2 justify-center'>
                 <span className='inline-block w-2 h-2 bg-green-500 rounded-full' />
                 라이프 스타일 맞춤형 상담
               </li>
-              <li className='flex items-center gap-2'>
+              <li className='flex items-center gap-2 justify-center'>
                 <span className='inline-block w-2 h-2 bg-green-500 rounded-full' />
                 지역 전문 홈플래너(전문가) 매칭
               </li>
-              <li className='flex items-center gap-2'>
+              <li className='flex items-center gap-2 justify-center'>
                 <span className='inline-block w-2 h-2 bg-green-500 rounded-full' />
                 집보기 현장 동행 및 리포트 제공
               </li>
-              <li className='flex items-center gap-2'>
+              <li className='flex items-center gap-2 justify-center'>
                 <span className='inline-block w-2 h-2 bg-green-500 rounded-full' />
                 계약 리스크 진단
               </li>
@@ -218,32 +216,34 @@ export default function ServiceIntro() {
         </div>
 
         {/* 고객 대상 */}
-        <div className='bg-gradient-to-br from-green-50 to-white rounded-3xl p-10 mb-20 shadow-lg flex flex-col md:flex-row items-center justify-center gap-8 border border-green-100'>
-          <div className='flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-green-400 to-emerald-300 shadow-md mb-4 md:mb-0'>
-            <HiOutlineUserGroup className='w-12 h-12 text-white' />
+        <div className='bg-gradient-to-br from-green-50 to-white rounded-3xl p-10 mb-20 shadow-lg flex flex-col md:flex-row md:items-center md:justify-center md:gap-0 border border-green-100'>
+          <div className='flex flex-row md:flex-col items-center md:items-center justify-center md:justify-center md:mr-4 mb-4 md:mb-0'>
+            <div className='flex items-center justify-center w-20 h-20 rounded-full bg-gradient-to-br from-green-400 to-emerald-300 shadow-md mb-0'>
+              <HiOutlineUserGroup className='w-12 h-12 text-white' />
+            </div>
+            <div className='flex flex-col items-center justify-center ml-4 md:ml-0 mt-0 md:mt-4 gap-4'>
+              <HiOutlineMapPin className='w-6 h-6 text-green-400 flex-shrink-0' />
+              <HiOutlineExclamationTriangle className='w-6 h-6 text-green-400 flex-shrink-0' />
+              <HiOutlineShieldCheck className='w-6 h-6 text-green-400 flex-shrink-0' />
+              <HiOutlineUser className='w-6 h-6 text-green-400 flex-shrink-0' />
+            </div>
           </div>
           <div className='flex-1 text-center md:text-left'>
-            <h3 className='text-2xl font-bold text-gray-900 mb-4'>
+            <h3 className='text-2xl font-bold text-gray-900 mb-4 whitespace-nowrap text-center'>
               💡 이런 분들께 꼭 필요합니다
             </h3>
-            <ul className='space-y-4 text-gray-700 text-base'>
-              <li className='flex items-start gap-3 md:justify-start justify-center'>
-                <HiOutlineMapPin className='w-6 h-6 text-green-400 mt-0.5 flex-shrink-0' />
-                <span>어디에 살아야 할지 몰라 동네 정보부터 막막하신 분</span>
+            <ul className='space-y-4 text-gray-700 text-base md:ml-0'>
+              <li className='flex items-start justify-center'>
+                <span className='block text-center w-full break-keep'>어디에 살아야 할지 몰라<br />동네 정보부터 막막하신 분</span>
               </li>
-              <li className='flex items-start gap-3 md:justify-start justify-center'>
-                <HiOutlineExclamationTriangle className='w-6 h-6 text-green-400 mt-0.5 flex-shrink-0' />
-                <span>인터넷 매물 정보만 믿고 계약하기 두려우신 분</span>
+              <li className='flex items-start justify-center'>
+                <span className='block text-center w-full break-keep'>인터넷 매물 정보만 믿고<br />계약하기 두려우신 분</span>
               </li>
-              <li className='flex items-start gap-3 md:justify-start justify-center'>
-                <HiOutlineShieldCheck className='w-6 h-6 text-green-400 mt-0.5 flex-shrink-0' />
-                <span>
-                  계약서 속 위험 문구를 놓치고 후회한 경험이 있으신 분
-                </span>
+              <li className='flex items-start justify-center'>
+                <span className='block text-center w-full break-keep'>계약서 속 위험 문구를 놓치고<br />후회한 경험이 있으신 분</span>
               </li>
-              <li className='flex items-start gap-3 md:justify-start justify-center'>
-                <HiOutlineUser className='w-6 h-6 text-green-400 mt-0.5 flex-shrink-0' />
-                <span>혼자 발품 팔기 어렵고 믿을 만한 동행자가 필요한 분</span>
+              <li className='flex items-start justify-center'>
+                <span className='block text-center w-full break-keep'>혼자 발품 팔기 어렵고 믿을 만한<br />동행자가 필요한 분</span>
               </li>
             </ul>
           </div>
