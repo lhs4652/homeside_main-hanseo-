@@ -78,7 +78,7 @@ export default function ServiceIntro() {
                 계약 리스크 진단
               </li>
             </ul>
-            <p className="text-sm text-gray-400 text-center md:text-left">
+            <p className="text-sm text-gray-400 text-center">
               * 서비스 대상 지역 : 부산 / 전국확장 예정
             </p>
           </div>

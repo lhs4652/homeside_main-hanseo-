@@ -65,21 +65,21 @@ export default function HeroSection() {
               alt='주택도시보증공사'
               width={80}
               height={40}
-              className='h-8 md:h-10 w-auto object-contain'
+              className='h-10 w-auto object-contain'
             />
             <Image
               src='/images/한국주택공사.svg'
               alt='한국주택공사'
               width={80}
               height={40}
-              className='h-8 md:h-10 w-auto object-contain'
+              className='h-10 w-auto object-contain'
             />
             <Image
               src='/images/한국주택금융공사.svg'
               alt='한국주택금융공사'
               width={80}
               height={40}
-              className='h-8 md:h-10 w-auto object-contain'
+              className='h-10 w-auto object-contain'
             />
           </div>
           <p className='text-sm text-gray-500 mt-4 text-center w-full'>
