@@ -59,28 +59,37 @@ export default function HeroSection() {
 
         {/* 서비스 옵션 - 공사 로고 3개 */}
         <div className='bg-white/80 rounded-xl p-5 mb-8 shadow flex flex-wrap gap-4 justify-center'>
-          <div className='flex flex-wrap justify-center gap-8 mt-4'>
-            <Image
-              src='/images/주택도시보증공사.svg'
-              alt='주택도시보증공사'
-              width={80}
-              height={40}
-              className='h-10 w-auto object-contain'
-            />
-            <Image
-              src='/images/한국주택공사.svg'
-              alt='한국주택공사'
-              width={80}
-              height={40}
-              className='h-10 w-auto object-contain'
-            />
-            <Image
-              src='/images/한국주택금융공사.svg'
-              alt='한국주택금융공사'
-              width={80}
-              height={40}
-              className='h-10 w-auto object-contain'
-            />
+          <div className='flex w-full justify-center items-center gap-6 md:gap-12'>
+            <div className='flex-1 flex justify-center items-center'>
+              <Image
+                src='/images/주택도시보증공사.svg'
+                alt='주택도시보증공사'
+                className='object-contain w-full h-auto max-h-12 min-h-8 max-w-[180px]'
+                width={180}
+                height={48}
+                priority
+              />
+            </div>
+            <div className='flex-1 flex justify-center items-center'>
+              <Image
+                src='/images/한국주택공사.svg'
+                alt='한국주택공사'
+                className='object-contain w-full h-auto max-h-12 min-h-8 max-w-[180px]'
+                width={180}
+                height={48}
+                priority
+              />
+            </div>
+            <div className='flex-1 flex justify-center items-center'>
+              <Image
+                src='/images/한국주택금융공사.svg'
+                alt='한국주택금융공사'
+                className='object-contain w-full h-auto max-h-12 min-h-8 max-w-[180px]'
+                width={180}
+                height={48}
+                priority
+              />
+            </div>
           </div>
           <p className='text-sm text-gray-500 mt-4 text-center w-full'>
             부동산 내편은 공공기관의 전세보증 및 대출 데이터를 통해 안전한 거래를 지원합니다.
