@@ -89,6 +89,8 @@ export default function RootLayout({
   return (
     <html lang='ko'>
       <head>
+        {/* 파비콘 추가 */}
+        <link rel="icon" type="image/png" href="/logo.png" />
         {/* 추가 SEO 태그들 */}
         <meta
           name='viewport'
