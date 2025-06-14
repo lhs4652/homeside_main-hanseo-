@@ -35,7 +35,9 @@ export default function Home() {
         <meta name="description" content="전세, 월세, 매매 모든 거래에서 AI 계약 리스크 검토까지!" />
         <meta property="og:title" content="부동산 내편 - 전문가 동행으로 안전한 부동산 거래" />
         <meta property="og:description" content="전세, 월세, 매매 모든 거래에서 AI 계약 리스크 검토까지!" />
-        <meta property="og:image" content="https://www.homeside.co.kr/logo.png" />
+        <meta property="og:image" content="https://www.homeside.co.kr/og-image.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta property="og:url" content="https://www.homeside.co.kr" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
