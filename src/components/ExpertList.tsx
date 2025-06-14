@@ -113,8 +113,8 @@ export default function ExpertList() {
         </div>
 
         {/* 전문가 카드 그리드 (3열) */}
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 opacity-40 pointer-events-none blur-sm'>
-          {expertsData.map((expert, index) => (
+        <div className='grid grid-cols-1 gap-8 mb-12 opacity-40 pointer-events-none blur-sm'>
+          {expertsData.slice(0, 9).map((expert, index) => (
             <ExpertCard
               key={index}
               expert={expert}
