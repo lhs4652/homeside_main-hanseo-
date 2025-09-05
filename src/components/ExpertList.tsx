@@ -95,33 +95,5 @@ const expertsData = [
 ];
 
 export default function ExpertList() {
-  return (
-    <section
-      id='expert-list'
-      className='py-16 bg-gray-50'
-    >
-      <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
-        {/* 섹션 제목 */}
-        <div className='text-center mb-12'>
-          <h2 className='text-3xl font-bold text-gray-900 mb-4'>
-            검증된 전문가들을 만나보세요
-          </h2>
-          <p className='text-lg text-gray-600'>
-            전문성과 신뢰성을 갖춘 부동산 전문가들이 여러분의 거래를
-            도와드립니다.
-          </p>
-        </div>
-
-        {/* 전문가 카드 그리드 (3열) */}
-        <div className='grid grid-cols-1 gap-8 mb-12 opacity-40 pointer-events-none blur-sm'>
-          {expertsData.slice(0, 3).map((expert, index) => (
-            <ExpertCard
-              key={index}
-              expert={expert}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 }
