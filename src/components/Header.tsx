@@ -24,13 +24,11 @@ export default function Header() {
               <Image
                 src='/logo.png'
                 alt='부동산 내편 로고'
-                width={32}
-                height={32}
-                className='w-8 h-8 rounded-lg object-contain bg-white'
+                width={120}
+                height={40}
+                className='h-10 w-auto object-contain'
                 priority
               />
-              {/* 로고 텍스트 */}
-              <h1 className='text-2xl font-bold text-green-600'>부동산 내편</h1>
             </Link>
           </div>
 
